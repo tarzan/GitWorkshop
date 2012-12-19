@@ -20,9 +20,13 @@ namespace ColorWebApp
          {
             Label1.ForeColor = System.Drawing.Color.Blue;
          }
-         else
+         else if (RadioButtonList1.SelectedValue == "Red")
          {
             Label1.ForeColor = System.Drawing.Color.Red;
+         }
+         else if (RadioButtonList1.SelectedValue == "Green")
+         {
+            Label1.ForeColor = System.Drawing.Color.Green;
          }
          Label1.Text = RadioButtonList1.SelectedValue;
       }

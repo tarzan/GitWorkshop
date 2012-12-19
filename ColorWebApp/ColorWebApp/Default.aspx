@@ -13,6 +13,7 @@
        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
           <asp:ListItem Selected="True">Red</asp:ListItem>
           <asp:ListItem>Blue</asp:ListItem>
+          <asp:ListItem>Green</asp:ListItem>
        </asp:RadioButtonList>
        <asp:Label ID="Label1" runat="server" Text="Color"></asp:Label>
     </div>
