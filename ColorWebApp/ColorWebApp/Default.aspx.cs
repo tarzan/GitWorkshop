@@ -14,15 +14,20 @@ namespace ColorWebApp
 
       }
 
+      /// Handler for clicking button 1
       protected void Button1_Click(object sender, EventArgs e)
       {
          if (this.RadioButtonList1.SelectedValue == "Blue")
          {
             Label1.ForeColor = System.Drawing.Color.Blue;
          }
-         else
+         else if (RadioButtonList1.SelectedValue == "Red")
          {
             Label1.ForeColor = System.Drawing.Color.Red;
+         }
+         else if (RadioButtonList1.SelectedValue == "Yellow")
+         {
+            Label1.ForeColor = System.Drawing.Color.Yellow;
          }
          Label1.Text = RadioButtonList1.SelectedValue;
       }
