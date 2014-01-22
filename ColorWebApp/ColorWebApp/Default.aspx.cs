@@ -14,6 +14,7 @@ namespace ColorWebApp
 
       }
 
+      /// Handler for clicking button 1
       protected void Button1_Click(object sender, EventArgs e)
       {
          if (this.RadioButtonList1.SelectedValue == "Blue")
